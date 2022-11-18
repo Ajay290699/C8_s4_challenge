@@ -11,23 +11,24 @@
 
 <body>
   <!-- Navigation Bar -->
-  <header>
-    <section><img src="assets/conference.png" /></section>
+  <div class="media">
+  <header class="head">
+    <section><img src="assets/conference.png" width="50px" height="50px"/></section>
     <section>
       <h3>Design Conference</h3>
     </section>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Speakers</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#">Venue</a></li>
-        <li><a href="#">Contact</a></li>
+    <nav class="nav_head">
+      <ul class="menu_ul">
+        <li class="nav_li"><a class="nav_a" href="#">Home</a></li>
+        <li class="nav_li"><a class="nav_a" href="#">Speakers</a></li>
+        <li class="nav_li"><a class="nav_a" href="#">Schedule</a></li>
+        <li class="nav_li"><a class="nav_a" href="#">Venue</a></li>
+        <li class="nav_li"><a class="nav_a" href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
   <!-- The Hero Unit -->
-  <div>
+  <div class="main_content">
     <h1>Dedicated to the Craft of Building Websites</h1>
     <h2>
       Every year the brightest web designers and front-end developers descend
@@ -39,36 +40,36 @@
 
   <!-- The Flex container that holds each paper or card -->
   <section>
-    <section>
-      <article>
-        <h3>Speakers</h3>
+    <section id="column_section">
+      <article class="content1">
+        <h3 class="speaker">Speakers</h3>
         <a href="#">
-          <img src="assets/speakers.jpg" alt="Professional Speaker" />
-          <h4>World-Class Speakers</h4>
+          <img class="img3" src="assets/speakers.jpg" alt="Professional Speaker" height="200px" width="200px" />
+          <h4 class="black">World-Class Speakers</h4>
         </a>
-        <p>
+        <p class="black">
           Joining us from all around the world are over twenty fantastic
           speakers, share their stories.
         </p>
       </article>
-      <article>
-        <h3>Schedule</h3>
+      <article class="content2">
+        <h3 class="schedule">Schedule</h3>
         <a href="#">
-          <img src="assets/schedule.jpg" alt="Schedule" />
-          <h4>Three Inspiring Days</h4>
+          <img class="img3" src="assets/schedule.jpg" alt="Schedule" height="200px" width="200px"/>
+          <h4 class="black">Three Inspiring Days</h4>
         </a>
-        <p>
+        <p class="black">
           Enjoy three inspiring and action-packed days of tals, gatherings, and
           all-around good times.
         </p>
       </article>
-      <article>
-        <h3>Venue</h3>
+      <article class="content3">
+        <h3 class="venue">Venue</h3>
         <a href="#">
-          <img src="assets/venue.jpg" alt="Venue" />
-          <h4>The Chicago Theatre</h4>
+          <img class="img3" src="assets/venue.jpg" alt="Venue" height="200px" width="200px" />
+          <h4 class="black">The Chicago Theatre</h4>
         </a>
-        <p>
+        <p class="black">
           Within the heart of The Chicago Theatre that will provide
           a beautiful conference venue.
         </p>
@@ -76,61 +77,61 @@
     </section>
     <!-- Footer -->
     <footer>
-      <div>
-        <div>
+      <div class="footer">
+        <div id="item1">
           <!-- Footer-links -->
           <ul>
-            <li><strong>
+            <li class="list"><strong>
                 <!-- Footer Header -->
-                <h4>ABOUT</h4>
+                <h4 class="header1">ABOUT</h4>
               </strong></li>
-            <li>We are an event management company specialized in arranging events for large corporates</li>
+            <li class="list">We are an event management company <br> specialized in arranging events for large <br> corporates</li>
           </ul>
         </div>
-        <div>
+        <div id="item2">
           <!-- Footer-links -->
           <ul>
-            <li><strong>
+            <li class="list"><strong>
                 <!-- Footer Header -->
-                <p>SERVICES</p>
+                <p class="header1">SERVICES</p>
               </strong></li>
-            <li><a href="#"><i aria-hidden="true"></i> Conferences</a></li>
-            <li><a href="#"><i aria-hidden="true"></i> Executive Retreats</a></li>
-            <li><a href="#"><i aria-hidden="true"></i> Team Building events</a></li>
+            <li class="list"><a href="#"><i aria-hidden="true"></i> Conferences</a></li>
+            <li class="list"><a href="#"><i aria-hidden="true"></i> Executive Retreats</a></li>
+            <li class="list"><a href="#"><i aria-hidden="true"></i> Team Building events</a></li>
           </ul>
         </div>
-        <div>
+        <div id="item3">
           <!-- Footer-links -->
           <ul>
-            <li><strong>
+            <li class="list"><strong>
                 <!-- Footer Header -->
-                <p>COMPANY</p>
+                <p class="header1">COMPANY</p>
               </strong></li>
-            <li><a href="#"><i aria-hidden="true"></i> Home</a></li>
-            <li><a href="#"><i aria-hidden="true"></i> About</a></li>
-            <li><a href="#"><i aria-hidden="true"></i> Contact</a></li>
+            <li class="list"><a href="#"><i aria-hidden="true"></i> Home</a></li>
+            <li class="list"><a href="#"><i aria-hidden="true"></i> About</a></li>
+            <li class="list"><a href="#"><i aria-hidden="true"></i> Contact</a></li>
           </ul>
         </div>
-        <div>
+        <div id="item4">
           <!-- Footer-links -->
           <ul>
-            <li><strong>
+            <li class="list"><strong>
                 <!-- Footer Header -->
-                <p>CONTACT</p>
+                <p class="header1">CONTACT</p>
               </strong></li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i> +27 000 0004l</li>
-            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> info@nevex.com</li>
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 1 Street. NYC</li>
+            <li class="list"><i class="fa fa-phone" aria-hidden="true"></i> +27 000 0004l</li>
+            <li class="list"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@nevex.com</li>
+            <li class="list"><i class="fa fa-map-marker" aria-hidden="true"></i> 1 Street. NYC</li>
           </ul>
         </div>
 
-        <div>
+        <div id="item5">
           <!-- social media links -->
           <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list list4"><a class="anchor" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li class="list list4"><a class="anchor" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li class="list list4"><a class="anchor" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li class="list list4"><a class="anchor" href="#"><i class="fa fa-linkedin"></i></a></li>
 
           </ul>
         </div>
@@ -138,6 +139,8 @@
 
       <div></div>
     </footer>
+  </section>
+</div>
 </body>
 
 </html>

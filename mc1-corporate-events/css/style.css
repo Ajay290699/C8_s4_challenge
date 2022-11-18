@@ -1,1 +1,114 @@
 /* Write CSS code here */
+.head{
+    display: flex;
+    background-color: #45484a;
+    color: whitesmoke;
+}
+.nav_a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.nav_li{
+    list-style: none;
+    margin-top: 10px;
+}
+.menu_ul{
+    display: flex;
+}
+.main_content>section>button{
+   border: 1px solid white;
+   border-radius: 5px;
+   background-color: #45484a;
+   color: whitesmoke;
+   padding: 8px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.main_content>section{
+    margin-top: -90px;
+}
+.main_content{
+    display: grid;
+    grid-template-columns: 100%;
+    background-image: url(../assets/corporate.jpg);
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;   
+    color: whitesmoke;
+    text-align: center;
+}
+.main_content>h1{
+    margin-top: 50px;
+}
+.main_content>h2{
+    margin-top: -80px;
+}
+.head>section>h3{
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 700px;
+}
+#column_section{
+    display: flex;
+}
+#column_section>article{
+    padding: 20px;
+    box-shadow: 4px 4px 4px 4px grey;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#column_section>article>a>.img3{
+    border-radius: 50%;
+}
+.black{
+    color: #45484a;
+}
+#column_section>article>a{
+    color: #45484a;
+}
+.footer{
+    display: grid;
+    grid-template-areas: 'auto auto auto auto auto';
+}
+footer{
+    margin-top: 10px;
+    background-color:#26272b;
+    color: #737373;
+}
+.about{
+    color: #737373;
+}
+.header1{
+    color: wheat;
+}
+.anchor{
+    color: #072339 ;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 5px;
+}
+.list{
+    list-style: none;
+}
+.list4{
+    display: inline;
+}
+ /* for desktop */
+ .media{
+    max-width: 100%;
+    height: 700px;
+}
+@media screen and (max-width: 220) and (max-width: 670px) {
+    .head{
+        display: block;
+    }
+    .menu_ul{
+        display: block;
+    }
+    #column_section{
+        display: block;
+    }
+}         
